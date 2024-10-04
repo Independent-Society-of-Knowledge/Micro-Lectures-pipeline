@@ -1,7 +1,7 @@
 # This is the Video Title
 
 ---scene---
-This is a scene for you
+One of the best experiments on explaining quantum behavior is the Stern-Gerlach experiment, which concerns the spin of a particle like an electron. It helps us understand that spin is quantized \& the concept of collapsing wave function.
 
 ---scene---
 This is another scene

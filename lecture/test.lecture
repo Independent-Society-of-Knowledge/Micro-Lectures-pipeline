@@ -1,0 +1,22 @@
+title: Testing Manim Capabilities
+series: Micro-Lecture
+authors: Independent society of Knowledge
+ver: 0.1
+---
+scene: 
+    scene-type: intro-scene
+        type: text
+        font: IBM Plex Sans
+        size: 40px
+        content: Testing Manim Capabilities
+
+    type: narration-scene
+        type: text
+        font: IBM Plex Sans
+        size: 24px
+        content: This is a lecture video generated using manim and isk .lecture files.
+        type: text, font: IBM Plex Sans, size: 24px -> This is another line in this scene that has been shown after the previous one.
+        type: text, font: IBM Plex Sans, size: 32px, transform: by-previous -> Yep!
+
+    type: equation-scene
+        type: equation -> R_{\mu\nu} -\frac{1}{2}R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}

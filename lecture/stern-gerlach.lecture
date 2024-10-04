@@ -1,0 +1,27 @@
+title   -> Explaining Stern Gerlach Experiment
+series  -> Micro-Lecture
+authors -> Independent Society of Knowledge 
+ver     -> 0.1
+---
+scene -> type: intro-scene
+    type: text -> This is a text as an example of a text content.
+    type: text -> Another text that is to be faded in after the previous one.
+
+scene -> type: narration-scene
+    type: text -> Stern-Gerlach Experiment is a famous experiment that exhibits quantum phenomena.
+    type: text  -> The experiment was done by Stern alone and later at 1922 with the help of Gerlach.
+    type: image -> src: "./path/to/the/image.svg"
+
+scene -> type: equation-scene
+    type: equation -> \int_{a}^{b} x^2 dx
+
+scene -> type: derivation-scene
+    type: derivation, style: center-by(=) -> 
+        F = m_1a
+        \frac{Gm_1m_2}{r^2} = m_1a
+        \frac{G\cancel m_1 m_2}{r^2} = \cancel m_1 a  
+        \frac{Gm_2}{r^2} = a
+
+scene -> type: visual
+    type: shape -> src: ./path/to/shape.svg
+    type: shape, transform: by-previous -> src: ./path/to/next/share.svg
